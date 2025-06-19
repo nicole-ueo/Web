@@ -1,0 +1,127 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Magazine</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #ffe4ec, #fff);
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #ec407a;
+      color: white;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+      letter-spacing: 1px;
+    }
+
+    .subtitulo {
+      font-size: 18px;
+      margin-top: 10px;
+      color: #ffdce5;
+    }
+
+    .contenedor {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 40px auto;
+      max-width: 1000px;
+      flex-wrap: wrap;
+    }
+
+    .tema {
+      background-color: #fff0f5;
+      border: 2px solid #f8bbd0;
+      border-radius: 15px;
+      padding: 20px;
+      width: 250px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .tema:hover {
+      transform: scale(1.05);
+    }
+
+    .tema h2 {
+      color: #c2185b;
+    }
+
+    .tema a {
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #ec407a;
+      color: white;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    .tema a:hover {
+      background-color: #ad1457;
+    }
+
+    .boton-regresar {
+      display: inline-block;
+      margin: 50px auto 20px;
+      padding: 12px 25px;
+      background-color: #ec407a;
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .boton-regresar:hover {
+      background-color: #ad1457;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Digital Magazine</h1>
+    <div class="subtitulo">Education, Nature and Science</div>
+  </header>
+
+  <div class="contenedor">
+    <div class="tema">
+      <h2>Dentistry</h2>
+      <p>Find out which universities you can study this degree at.</p>
+      <a href="odonto.html" target="_blank">See more</a>
+    </div>
+
+    <div class="tema">
+      <h2>Environment</h2>
+      <p>How to care for it and its importance in daily life.</p>
+      <a href="medio.html" target="_blank">See more</a>
+    </div>
+
+    <div class="tema">
+      <h2>Aquatic Animals</h2>
+      <p>Learn about some species and interesting facts.</p>
+      <a href="animal.html" target="_blank">See more</a>
+    </div>
+  </div>
+
+  <a href="anuncio.html" class="boton-regresar">← Return to Home Page</a>
+
+</body>
+</html>

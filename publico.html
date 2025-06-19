@@ -1,0 +1,67 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Imágenes - Derecho</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #ffe4ec, #fff);
+      color: #333;
+      text-align: center;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .galeria img {
+      width: 300px;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    .boton-regresar {
+      display: inline-block;
+      margin: 30px auto 50px;
+      padding: 12px 25px;
+      background-color: #ec407a;
+      color: white;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .boton-regresar:hover {
+      background-color: #ad1457;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Ramas del derecho</h1>
+
+  <div class="galeria">
+  	<h1>Derecho público</h1>
+    <img src="Beige Simple Modern Fishbone Diagram Graph_20250609_201904_0000.png" alt="Descripción 1">
+    	<h1>Derecho privado</h1>
+    <img src="Beige Simple Modern Fishbone Diagram Graph_20250609_201904_0001.png" alt="Descripción 2">
+    	<h1>Derecho social</h1>
+    <img src="Beige Simple Modern Fishbone Diagram Graph_20250609_201904_0002.png" alt="Descripción 3">
+  </div>
+
+  <a href="derecho.html" class="boton-regresar">← Regresar al inicio</a>
+
+</body>
+</html>
